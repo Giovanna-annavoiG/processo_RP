@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        string palavra, stringInvertida;
+        string palavra, Invertida;
       
         Console.WriteLine("Digite um palavra: ");
         palavra = Console.ReadLine();
@@ -27,7 +27,7 @@ class Program
           Console.WriteLine("");
         }
         
-        stringInvertida = new string(caracteres);
-        Console.WriteLine("A palavra invertida é: " + stringInvertida);
+        Invertida = new string(caracteres);
+        Console.WriteLine("A palavra invertida é: ", Invertida);
     }
 }
